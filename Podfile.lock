@@ -1,0 +1,37 @@
+PODS:
+  - AWSCore (2.12.7)
+  - AWSS3 (2.12.7):
+    - AWSCore (= 2.12.7)
+  - CryptoSwift (0.13.0)
+  - GRDB.swift/SQLCipher (4.11.0):
+    - SQLCipher (>= 3.4.0)
+  - SQLCipher (4.3.0):
+    - SQLCipher/standard (= 4.3.0)
+  - SQLCipher/common (4.3.0)
+  - SQLCipher/standard (4.3.0):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - AWSS3 (= 2.12.7)
+  - CryptoSwift (= 0.13.0)
+  - GRDB.swift/SQLCipher (= 4.11.0)
+  - SQLCipher (= 4.3.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AWSCore
+    - AWSS3
+    - CryptoSwift
+    - GRDB.swift
+    - SQLCipher
+
+SPEC CHECKSUMS:
+  AWSCore: 2f0f88ae94a63a198274d683c7d0e18709d7090b
+  AWSS3: 40d2f99d91e34999789a534d95c80cc7c1135c6d
+  CryptoSwift: 16e78bebf567bad1c87b2d58f6547f25b74c31aa
+  GRDB.swift: 22e9d04cb732dfa9fa4440bc0bbb069ee8195183
+  SQLCipher: d305a7bd9af4b64f095c79bdc1a1fa50f2a15116
+
+PODFILE CHECKSUM: 570f1ddd06348cea01fd3dc7c4584365e25a3e69
+
+COCOAPODS: 1.8.4
